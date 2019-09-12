@@ -16,3 +16,8 @@ RANGER_C_API int RANGER_C_CALLTYPE jranger_local_account_init_sdk()
 RANGER_C_API void RANGER_C_CALLTYPE ranger_local_account_release_sdk()
 {
 }
+
+RANGER_C_API int RANGER_C_CALLTYPE ranger_local_account_verify(const char* username, const char* password, const unsigned controls)
+{
+	return 0;
+}
